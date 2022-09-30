@@ -1,0 +1,70 @@
+html{
+    background-color:black
+    
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    background-color: #797574
+    
+}
+
+.header {
+    color: black
+}
+
+
+.completed:hover {
+    background: rgb(13, 138, 55);
+}
+
+.button {
+    padding: 4px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+    float: inline-end;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+ .list {
+    padding: 10px;
+    background-color: rgb(158, 154, 149);
+    color: black;
+ }
+
+ li {
+    display: flex;
+    background-color: #a50d0d;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+ li.completed {
+    background: rgb(13, 138, 55);
+    color: #fff;
+    text-decoration: line-through;
+ }
+
+ li:hover {
+    background-color: #a33b3b;
+ }
+
+
+ span:hover {
+    background-color: rgb(13, 138, 55);;
+ }
+
+
+
+
